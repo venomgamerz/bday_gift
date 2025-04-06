@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://bday2-gitanshuworld.netlify.app/ -->
+<html lang="en"><!-- <![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Happy Birthday</title>
+	
+	
+	<link rel="stylesheet" href="./Happy Birthday_files/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./Happy Birthday_files/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="./Happy Birthday_files/loading.css">
+	<link href="./Happy Birthday_files/css" rel="stylesheet" type="text/css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet/less" href="https://bday2-gitanshuworld.netlify.app/cake.less"><style type="text/css" id="less:cake">/* ============================================== POSITION
+*/
+.cake {
+  position: absolute;
+  display: none;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 300px;
+}
+/* ============================================== BASE
+*/
+.cake:after {
+  background: #ffffff;
+  border-radius: 300px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 6px;
+}
+/* ============================================== Candle
+*/
+.velas {
+  background: #ffffff;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -7.5px;
+  margin-top: -25px;
+  width: 15px;
+  height: 50px;
+}
+.velas:after,
+.velas:before {
+  background: rgba(255, 0, 0, 0.4);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6.66666667px;
+}
+.velas:after {
+  top: 25%;
+  left: 0;
+}
+.velas:before {
+  top: 45%;
+  left: 0;
+}
+/* ============================================== Fire
+*/
+.fuego {
+  display: none;
+  border-radius: 100%;
+  box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 37.5px;
+}
+.fuego:nth-child(1) {
+  -webkit-animation: fuego 2s infinite;
+  -moz-animation: fuego 2s infinite;
+  -o-animation: fuego 2s infinite;
+  -ms-animation: fuego 2s infinite;
+  animation: fuego 2s infinite;
+}
+.fuego:nth-child(2) {
+  -webkit-animation: fuego 1.5s infinite;
+  -moz-animation: fuego 1.5s infinite;
+  -o-animation: fuego 1.5s infinite;
+  -ms-animation: fuego 1.5s infinite;
+  animation: fuego 1.5s infinite;
+}
+.fuego:nth-child(3) {
+  -webkit-animation: fuego 1s infinite;
+  -moz-animation: fuego 1s infinite;
+  -o-animation: fuego 1s infinite;
+  -ms-animation: fuego 1s infinite;
+  animation: fuego 1s infinite;
+}
+.fuego:nth-child(4) {
+  -webkit-animation: fuego 0.5s infinite;
+  -moz-animation: fuego 0.5s infinite;
+  -o-animation: fuego 0.5s infinite;
+  -ms-animation: fuego 0.5s infinite;
+  animation: fuego 0.5s infinite;
+}
+.fuego:nth-child(5) {
+  -webkit-animation: fuego 0.2s infinite;
+  -moz-animation: fuego 0.2s infinite;
+  -o-animation: fuego 0.2s infinite;
+  -ms-animation: fuego 0.2s infinite;
+  animation: fuego 0.2s infinite;
+}
+/* ============================================== Animation Fire
+*/
+@-webkit-keyframes fuego {
+  0% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    -webkit-transform: translateY(-60px) scale(0);
+  }
+  100% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-transform: translateY(0) scale(1);
+  }
+}
+@-moz-keyframes fuego {
+  0% {
+    background: rgba(254, 248, 97, 0.5);
+    -moz-transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    -moz-transform: translateY(-60px) scale(0);
+  }
+  100% {
+    background: rgba(254, 248, 97, 0.5);
+    -moz-transform: translateY(0) scale(1);
+  }
+}
+@-o-keyframes fuego {
+  0% {
+    background: rgba(254, 248, 97, 0.5);
+    -o-transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    -o-transform: translateY(-60px) scale(0);
+  }
+  100% {
+    background: rgba(254, 248, 97, 0.5);
+    -o-transform: translateY(0) scale(1);
+  }
+}
+@-ms-keyframes fuego {
+  0% {
+    background: rgba(254, 248, 97, 0.5);
+    -ms-transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    -ms-transform: translateY(-60px) scale(0);
+  }
+  100% {
+    background: rgba(254, 248, 97, 0.5);
+    -ms-transform: translateY(0) scale(1);
+  }
+}
+@keyframes fuego {
+  0% {
+    background: rgba(254, 248, 97, 0.5);
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    transform: translateY(-60px) scale(0);
+  }
+  100% {
+    background: rgba(254, 248, 97, 0.5);
+    transform: translateY(0) scale(1);
+  }
+}
+/* ============================================== Frosting
+*/
+.cobertura {
+  background: #ece7e3;
+  border-radius: 150px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -83.33333333px;
+  margin-top: -15px;
+  width: 166.66666667px;
+  height: 37.5px;
+  z-index: 10;
+}
+.cobertura:after,
+.cobertura:before {
+  background: #ece7e3;
+  border-radius: 300px;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+}
+.cobertura:after {
+  top: 20px;
+  right: 42.85714286px;
+}
+.cobertura:before {
+  top: 30px;
+  right: 27.27272727px;
+}
+/* ============================================== BIZCOCHO
+*/
+.bizcocho {
+  background: #6d3826;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  height: 100px;
+}
+.bizcocho:after,
+.bizcocho:before {
+  background: rgba(236, 231, 227, 0.6);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15px;
+}
+.bizcocho:after {
+  top: 30%;
+  left: 0;
+}
+.bizcocho:before {
+  top: 60%;
+  left: 0;
+}
+/* ============================================== TEXT
+*/
+h1,
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style>
+	<script async="" src="./Happy Birthday_files/analytics.js.download"></script><script src="./Happy Birthday_files/less.min.js.download"></script>
+</head>
+
+<body>
+	<div class="loading" style="display: none;"></div>
+	<audio class="song" controls="" loop="">
+        <source src="Happy Birthday To You Ji-(Mr-Jat.in).mp3">
+	   Your browser isn't invited for super fun audio time.
+    </audio>
+    <div class="balloons text-center" id="b1">
+    	<h2 style="color:#F2B300;">H</h2>
+    </div>
+    <div class="balloons text-center" id="b2">
+    	<h2 style="color:#0719D4;">B</h2>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h2 style="color:#D14D39;">D</h2>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h2 style="color:#8FAD00;">R</h2>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h2 style="color:#8377E4;">I</h2>
+    </div>
+    <div class="balloons text-center" id="b6">
+    	<h2 style="color:#99C96A;">Y</h2>
+    </div>
+    <div class="balloons text-center" id="b7">
+    	<h2 style="color:#20CFB4;">A</h2>
+    </div>
+
+    <img src="./Happy Birthday_files/Balloon-Border.png" width="100%" class="balloon-border">
+ 
+
+	<div class="container" style="display: block;">
+		
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="./Happy Birthday_files/banner.png" class="bannar">
+			</div>
+		</div>
+		<div class="row cake-cover">
+			<div class="col-md-12 texr-center">
+				<div class="cake">
+				  <div class="velas">
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				  </div>
+				  <div class="cobertura"></div>
+				  <div class="bizcocho"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row message">
+			<div class="col-md-12">
+				<p>On this special day...🤩</p>
+				<p><strong>I want to tell you 😏</strong></p>
+				<p>something special...😇</p>
+				<p>That...</p>
+				<p>You are my 👀</p>
+				<p>SPECIAL 😍</p>
+				<p>Frend I ever have...❤</p>
+				
+				<p>Advance happy birthday to youuu...😍🎂</p>
+				<p>Prasanna....(Riya)</p>
+			</div>
+		</div>
+		<div class="navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-md-6 text-center col-md-offset-3">
+					<button class="btn btn-primary" id="turn_on">Please Turn On Lights 💡</button>
+					<button class="btn btn-primary" id="play">Play Music 🎵</button>
+					<button class="btn btn-primary" id="bannar_coming">Let's Decorate 🎀</button>
+					<button class="btn btn-primary" id="balloons_flying">Balloons for you 🎈</button>
+					<button class="btn btn-primary" id="cake_fadein">Cake for uhh 🎂</button>
+					<button class="btn btn-primary" id="light_candle"> Light Candle 🔥</button>
+					<button class="btn btn-primary" id="wish_message">Happy Birthdayy..🎈🎁</button>
+					<button class="btn btn-primary" id="story">Now something special...🥰</button>
+				</div>
+			</div>
+			<br> <br>
+		</div>
+
+
+	</div>
+	<div id="hearts"><div class="heart" style="left: 31.9138vw; animation-duration: 4.91499s;">🩵</div><div class="heart" style="left: 4.97644vw; animation-duration: 4.20025s;">💛</div><div class="heart" style="left: 20.5209vw; animation-duration: 4.68546s;">🧡</div><div class="heart" style="left: 29.207vw; animation-duration: 4.67887s;">💛</div><div class="heart" style="left: 39.5523vw; animation-duration: 3.6394s;">🩵</div><div class="heart" style="left: 37.2967vw; animation-duration: 4.33645s;">💛</div><div class="heart" style="left: 60.1195vw; animation-duration: 4.32755s;">🧡</div><div class="heart" style="left: 71.7168vw; animation-duration: 3.07231s;">🩵</div><div class="heart" style="left: 14.98vw; animation-duration: 3.47706s;">💛</div><div class="heart" style="left: 23.6113vw; animation-duration: 3.47949s;">🧡</div><div class="heart" style="left: 46.2443vw; animation-duration: 3.02753s;">🩵</div><div class="heart" style="left: 57.3843vw; animation-duration: 3.02984s;">💛</div><div class="heart" style="left: 83.8395vw; animation-duration: 4.68054s;">🧡</div><div class="heart" style="left: 83.5795vw; animation-duration: 4.59221s;">🩵</div><div class="heart" style="left: 93.3003vw; animation-duration: 4.70501s;">💛</div><div class="heart" style="left: 18.6108vw; animation-duration: 3.86697s;">🧡</div><div class="heart" style="left: 74.1374vw; animation-duration: 3.45514s;">💛</div></div>
+
+<script src="./Happy Birthday_files/jquery.min.js.download"></script>
+<script src="./Happy Birthday_files/bootstrap.min.js.download"></script>
+<script src="./Happy Birthday_files/effect.js.download"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58229732-1', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+</body></html>
